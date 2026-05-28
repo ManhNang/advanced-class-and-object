@@ -1,0 +1,11 @@
+Chưa liên kết thiết bị
+Log => Chưa kết nối với thiết bị nào!
+
+Cảm biến A bị kích hoạt chỉ bóng đèn L01 được bật
+Log => Đã kết nối với thiết bị L01
+Log => Đã bật đèn L01
+
+Tắt đèn L01 và liên kết với đèn L02
+Log => Đã tắt đèn L01
+Log => Đã kết nối với thiết bị L02
+Log => Đã bật đèn L02
