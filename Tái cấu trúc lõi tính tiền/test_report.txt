@@ -1,0 +1,12 @@
+let mouse = new Product("Chuột không dây", 200000 , 2);
+let keyboard = new Product("Bàn phím cơ", 800000 , 1);
+let myOrder = new Order("#TM123");
+
+myOrder.addItem(mouse);
+myOrder.addItem(keyboard);
+
+Log: Số tiền cần thanh toán ban đầu: 1188000
+
+myOrder.removeItem(mouse);
+
+Log: Số tiền cần thanh toán sau khi remove Chuột không dây: 1188000
