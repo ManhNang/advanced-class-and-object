@@ -1,0 +1,26 @@
+let deliveryDrone = new SecureDrone("DRN-99");
+
+//Bay bình thường
+deliveryDrone.flyUp(50); 
+console.log("Cảnh báo: Drone đang ở độ cao ", deliveryDrone.getStatus());
+Log => Cảnh báo: Drone đang ở độ cao  50
+
+deliveryDrone.flyDown(20); 
+console.log("Cảnh báo: Drone đang ở độ cao ", deliveryDrone.getStatus());
+Log => Cảnh báo: Drone đang ở độ cao  30
+
+//Hack phá
+deliveryDrone.#altitude = 1000;
+Log => SyntaxError: Private field '#altitude' must be declared in an enclosing class
+
+deliveryDrone.flyUp(200);
+Log => Chỉ được bay trong khoảng từ 0 - 120m
+
+deliveryDrone.flyUp("mười mét");
+Log => Chỉ được bay trong khoảng từ 0 - 120m
+
+deliveryDrone.flyDown(-200);
+Log => Chỉ được bay trong khoảng từ 0 - 120m
+
+deliveryDrone.flyDown("mười mét");
+Log => Chỉ được bay trong khoảng từ 0 - 120m
