@@ -3,9 +3,11 @@
  * LỖI: Objects không tự tương tác. Dữ liệu bị thao tác bạo lực từ bên ngoài.
  */
 class BankAccount {
+    #id;
     #balance = 0;
+    
     constructor(id, name, balance){
-        this.id = id;
+        this.#id = id;
         this.name = name;
         this.#balance = balance;
     }
