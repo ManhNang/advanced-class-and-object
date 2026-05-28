@@ -1,0 +1,6 @@
+console.log:
+Số dư ban đầu: Alice = 5000, Bob = 1000, Charlie = 8000
+Đã chuyển 1000 từ Alice sang Bob
+Đã chuyển 2000 từ Bob sang Charlie
+Tài khoản nhận sai hoặc không đủ số dư hoặc sai định dạng!
+Số dư sau khi chuyển: Alice = 4000, Bob = 0, Charlie = 10000
