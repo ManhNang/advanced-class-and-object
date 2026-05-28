@@ -54,7 +54,7 @@ class Cat {
         else console.log(rat.name + " chạy nhanh quá không bắt được.");
     }
 
-    #eat(){
+    eat(){
         for(let i = 0; i < this.#rats.length; i++){
             if(this.#rats[i].isAlive === true){
                 this.#rats[i].isAlive = false;
@@ -74,5 +74,5 @@ cat.catch(rat1);
 cat.catch(rat2);
 cat.catch(rat3);
 
-cat.#eat();
+cat.eat();
 console.log("Cân nặng sau khi ăn của Tom: " + cat.weight);
